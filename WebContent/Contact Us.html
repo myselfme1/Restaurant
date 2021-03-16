@@ -1,0 +1,144 @@
+<html>
+<head>
+	<link rel=stylesheet type=text/css href=cd.css>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class=main>
+		<div class=header>
+			<center><h1>Welcome to IIIT Restaurant</h1></center>
+		</div>
+		<div class=menu>
+			<div class="scrollmenu">
+  <a href="index.html">Home</a>
+  <a href="Contact Us.html">Contact Us</a>
+  <a href="menu.jsp">Ordering/Menu</a>
+  <a href="Location.html">Location</a>
+  <a href="CustomerDetails.html">Book a Table</a>
+</div>
+		</div>
+<br>
+<br>
+
+<div class="about-section">
+  <h1></h1>
+  <p>IIIT Restaurant, the taste maker, is a family restaurant, vow to excellence, customer service & hygiene;
+is one of the premier restaurants in Bhubaneswar city of Odisha. It is one of the finest in unique, great tasting Vegetarian cuisine have been treated to a royal feast. 
+Traditional Vegetarian dishes are given a "Soulful" and spirited workout!. Our Professional, Experienced, Dedicated team ensures high quality colorful,
+ delicious and excellent dishes.</p>
+  <p></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="om.jpg" alt="Om" style="width:100%">
+      <div class="container">
+        <h2>Omkar Upadhyaya</h2>
+        <p class="title">CEO</p>
+        <p></p>
+        <p>b119037@iiit-bh.ac.in</p>
+        <p><button class="button">Contact: 9583037018</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="suman.jpeg" alt="Suman" style="width:100%">
+      <div class="container">
+        <h2>Suman Kumar</h2>
+        <p class="title">General Manager</p>
+        <p></p>
+        <p>b119058@iiit-bh.ac.in</p>
+        <p><button class="button">Contact: 7320969785</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Sunny" style="width:100%">
+      <div class="container">
+        <h2>Sunny Singh</h2>
+        <p class="title">Managing Director</p>
+        <p></p>
+        <p>b119059@iiit-bh.ac.in</p>
+        <p><button class="button">Contact: 7703814851</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

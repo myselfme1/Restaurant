@@ -1,0 +1,70 @@
+<html>
+<head>
+	<link rel=stylesheet type=text/css href=ab.css>
+	<link rel=stylesheet type=text/css href=cd.css>
+	<script type=text/javascript>
+function validate()
+{
+	if(document.MyForm.t1.value=="")
+	{
+		alert("Please Enter your First Name");
+		document.MyForm.t1.focus();
+		return false;
+	}
+	if(document.MyForm.t2.value=="")
+	{
+		alert("Please Enter your Last Name");
+		document.MyForm.t2.focus();
+		return false;
+	}
+	if(document.MyForm.t3.value=="")
+	{
+		alert("Please Enter your Contact Number");
+		document.MyForm.t2.focus();
+		return false;
+	}
+	if(document.MyForm.t4.value=="")
+	{
+		alert("Please Enter your E-mail");
+		document.MyForm.t2.focus();
+		return false;
+	}
+	return true;
+}
+	</script>
+	</head>
+<body>
+<div class=main>
+		<div class=header>
+			<center><h1>Welcome to IIIT Restaurant</h1></center><br>
+		</div>
+		<div class=menu>
+			<div class="scrollmenu">
+  <a href="index.html">Home</a>
+  <a href="Contact Us.html">Contact Us</a>
+  <a href="menu.jsp">Ordering/Menu</a>
+ <!-- <a href="#reservation">Reservation</a>
+  <a href="#Inventory">Inventory</a>
+  <a href="#about">About Us</a>-->
+  <a href="Location.html">Location</a>
+  <a href="CustomerDetails.html">Book a Table</a>
+</div>
+		</div>
+	<div class=container>
+<form action="custurl" name="MyForm" onsubmit="return(validate());">
+<!-- First Name<br><input type="text" name="t2" id=f2 placeholder="Enter Your Last Name"><br><br>-->
+First Name<br><input type="text" name="t1" id=f1 placeholder="Enter Your First Name"><br><br>
+Last Name<br><input type="text" name="t2" id=f2 placeholder="Enter Your Last Name"><br><br>
+Contact Number<br><input type="text" name="t3" placeholder=
+"Enter Your Contact Number"><br><br>
+<!--  E-mail<br><input type=email name="t4" placeholder="Enter your E-mail"><br><br>
+Address<br><textarea rows="7" cols="35" name="tarea" placeholder="Enter Your Full Address" ></textarea><br><br>-->
+Gender <input type="radio" name="r1" value="male">Male 
+<input type="radio" name="r1" value="female">Female<br><br>
+Date and Time for Table Booking <input type='datetime-local' name="dt"><br><br>
+<input type=submit value="Submit"> &nbsp;&nbsp;
+<input type=reset value="Clear">
+</form>
+</div>
+</body>
+</html>
