@@ -20,9 +20,6 @@
   <a href="index.html">Home</a>
   <a href="Contact Us.html">Contact Us</a>
   <a href="menu.jsp">Ordering/Menu</a>
- <!-- <a href="#reservation">Reservation</a>
-  <a href="#Inventory">Inventory</a>
-  <a href="#about">About Us</a>-->
   <a href="Location.html">Location</a>
   <a href="CustomerDetails.html">Book a Table</a>
 </div>
@@ -33,22 +30,6 @@
 				<!-- <img src="images/slider-02.jpg" alt="">-->
 				<div class="container">
 					<div class="row">
-<!--  <div class=main>
-		<div class=header>
-			<center><h1>Welcome Hello</h1></center><br>
-		</div>
-		<div class=menu>
-			<div class="scrollmenu">
-  <a href="index.html">Home</a>
-  <a href="Contact Us.html">Contact Us</a>
-  <a href="menu.jsp">Ordering/Menu</a>
-  <a href="#reservation">Reservation</a>
-  <a href="#Inventory">Inventory</a>
-  <a href="#about">About Us</a>
-  <a href="Location.html">Location</a>
-  <a href="CustomerDetails.html">Book a Table</a>
-</div>
-		</div>-->
 		<div class=banner>
 		<!--  <h1 style="color:white">Roti</h1>-->
 <table style="color:white" border=1 align="left" width="45%" cellpadding="10" cellspacing="0">
